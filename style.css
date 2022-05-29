@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif!important;
+    font-family: 'Oswald', sans-serif !important;
 }
 
-body {}
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
@@ -186,18 +185,18 @@ a {
     align-items: center;
 
 }
-.container-nosotros{
+
+.container-nosotros {
     width: 100%;
-    position: relative;
-    top: -150px;
-    height: 400px;
-    z-index: 999;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
 }
-.box-nosotros{
+
+.box-nosotros {
     width: 70%;
-    height: 500px;
     background-color: white;
     text-align: center;
     display: flex;
@@ -206,7 +205,8 @@ a {
     flex-direction: column;
     align-items: center;
 }
-.title-box{
+
+.title-box {
     margin-top: 25px;
     background-color: rgba(0, 26, 139, 0.534);
     width: fit-content;
@@ -216,32 +216,40 @@ a {
     padding-bottom: 10px;
     margin-bottom: 40px;
 }
-.title-box h3{
+
+.title-box h3 {
     font-size: 30px;
-    font-family: 'Oswald', sans-serif!important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: bold;
     color: white;
     margin-bottom: 0;
 }
-.titulo-nosotros{
+
+.titulo-nosotros {
     left: 0;
     font-size: 30px;
     font-weight: bold;
 }
-.box-title-us{
+
+.box-title-us {
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
+    width: 100%;
+    flex-direction: column;
 }
-.box-title-us p{
+
+.box-title-us p {
     text-align: justify;
     font-size: 20px;
 }
-.box-btn-us{
+
+.box-btn-us {
     display: flex;
     justify-content: end;
 }
-.btn-a{
+
+.btn-a {
     background: #555555;
     border-radius: 31px;
     padding: 10px 10px 10px 10px;
@@ -253,3 +261,54 @@ a {
     margin-right: 50px;
     color: white;
 }
+
+.list-diferencial {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.list-diferencial li {
+    text-align: left;
+}
+
+.logo-garantia {
+    margin-top: -50px;
+    width: 150px;
+}
+
+#piletas {
+    background-image: url("./assets/bg.jpg");
+}
+
+.heading-cont {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.heading-piletas {
+    font-size: 1.5vw;
+    background-color: #fff;
+    padding: 10px 0 10px 45px;
+    text-transform: uppercase;
+    color: #4e4e4e;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    margin: 20px auto 2px auto !important;
+}
+
+.lead {
+    background-color: rgba(60, 163, 223, .5);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    color: white;
+    padding: 12px 45px 12px 45px;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
