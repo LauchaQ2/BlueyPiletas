@@ -112,4 +112,11 @@
     .btn-a{
         margin-right: 0;
     }
+    .logo-garantia{
+       width: 80px;
+       margin-top: 0;
+    }
+    .fs-2{
+        font-size: 20px!important;
+    }
 }
