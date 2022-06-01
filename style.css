@@ -284,6 +284,7 @@ a {
 
 #piletas {
     background-image: url("./assets/bg.jpg");
+    padding-bottom: 20px!important;
 }
 
 .heading-cont {
@@ -371,4 +372,12 @@ a {
 .bold{
     font-weight: 600!important;
     color: #3381bf;
+}
+.titulo-equipos{
+    font-size: 26px;
+    color: #4e4e4e!important;
+}
+.text-equipos{
+    font-size: 20px;
+    color: #4e4e4e!important;
 }

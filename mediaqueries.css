@@ -93,6 +93,7 @@
     .box-nosotros {
         width: 90%;
         background-color: white;
+        margin-top: 15px;
     }
 
     .title-box {
@@ -118,5 +119,9 @@
     }
     .fs-2{
         font-size: 20px!important;
+    }
+    p{
+        font-size: 18px!important
+        ;
     }
 }
