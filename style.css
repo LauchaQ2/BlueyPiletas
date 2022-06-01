@@ -377,7 +377,26 @@ a {
     font-size: 26px;
     color: #4e4e4e!important;
 }
+.titulo-white{
+    font-size: 26px;
+    color: white!important;
+}
 .text-equipos{
     font-size: 20px;
     color: #4e4e4e!important;
+}
+.text-white{
+    font-size: 20px;
+    color: white!important;
+}
+.bolder{
+    font-weight: bolder;
+}
+.list-group-item,.list-group{
+    background-color:initial!important;
+    border: initial!important;
+}
+.icons-work{
+    width: 200px;
+    height: 200px;
 }

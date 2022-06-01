@@ -87,13 +87,9 @@
         font-weight: bold;
         color: white;
     }
-
-    
-
     .box-nosotros {
         width: 90%;
         background-color: white;
-        margin-top: 15px;
     }
 
     .title-box {
@@ -102,6 +98,7 @@
         width: fit-content;
         margin-left: 20px;
         margin-right: 20px;
+        margin-bottom: 25px;
     }
     .title-box h3{
         font-size: 20px;
@@ -123,5 +120,24 @@
     p{
         font-size: 18px!important
         ;
+    }
+    .list-group{
+        display: flex!important;
+    }
+    .list-group-item{
+        padding: 0;
+    }
+    .icons-work{
+        width: 65px;
+        height: 65px;
+    }
+    .m1,.m2,.m3,.m4,.m5,.r1,.r2{
+        background-size: 450px 650px;
+    }
+    #diferencial{
+        margin-top: 15px;
+    }
+    .heading-piletas{
+        margin-top: 16px!important;
     }
 }
