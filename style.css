@@ -302,13 +302,31 @@ a {
     margin: 20px auto 2px auto !important;
 }
 
+
 .lead {
     background-color: rgba(60, 163, 223, .5);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     color: white;
     padding: 12px 45px 12px 45px;
 }
-
+.heading-contacto{
+    font-size: 28px;
+    background-color: #fff;
+    padding: 10px 0 10px 45px;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+    margin: 0;
+    background: #525252;
+    font-weight: 700;
+}
+.lead-contacto{
+    background-color: #8e8e8e;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+    color: white;
+    padding: 12px 45px 12px 45px;
+    font-size: 24px;
+}
 .container-fluid {
     padding: 0 !important;
 }
@@ -399,4 +417,33 @@ a {
 .icons-work{
     width: 200px;
     height: 200px;
+}
+.input-contacto, .input-option{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    color: #FFF;
+    background: #8e8e8e;
+    margin: 3px 0px 15px 0;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+    letter-spacing: 1px;
+    border: 0;
+}
+.input-option{
+    font-size: 14px!important;
+}
+.input-contacto::placeholder{
+    color:white;
+    font-size: 16px;
+}
+.pr-0{
+    padding-right: 0!important;
+}
+.pl-0{
+    padding-left: 0!important;
+}
+label{
+    white-space: nowrap;
 }

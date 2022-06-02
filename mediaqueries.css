@@ -140,4 +140,22 @@
     .heading-piletas{
         margin-top: 16px!important;
     }
+    .f-c{
+        flex-direction: column!important;
+    }
+    .c-c{
+        width: 100%!important;
+    }
+    .pr-0{
+        padding-right: 12px!important;
+    }
+    .pl-0{
+        padding-left: 12px!important;
+    }
+    .mb0{
+        margin-bottom: 0!important;
+    }
+    .lead-contacto{
+        font-size: 14px!important;
+    }
 }
