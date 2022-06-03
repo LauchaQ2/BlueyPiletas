@@ -284,7 +284,7 @@ a {
 
 #piletas {
     background-image: url("./assets/bg.jpg");
-    padding-bottom: 20px!important;
+    padding-bottom: 20px !important;
 }
 
 .heading-cont {
@@ -309,7 +309,8 @@ a {
     color: white;
     padding: 12px 45px 12px 45px;
 }
-.heading-contacto{
+
+.heading-contacto {
     font-size: 28px;
     background-color: #fff;
     padding: 10px 0 10px 45px;
@@ -320,105 +321,135 @@ a {
     background: #525252;
     font-weight: 700;
 }
-.lead-contacto{
+
+.lead-contacto {
     background-color: #8e8e8e;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
     color: white;
     padding: 12px 45px 12px 45px;
     font-size: 24px;
 }
+
 .container-fluid {
     padding: 0 !important;
 }
+
 .bannerplanos {
     width: 100%;
     height: 700px;
 }
-.m1{
+
+.m1 {
     background-image: url("./assets/Minimalista\ 720.png");
     background-repeat: no-repeat;
     background-position: center;
 }
-.m2{
+
+.m2 {
     background-image: url("./assets/Minimalista\ 4.png");
     background-repeat: no-repeat;
     background-position: center;
 
 }
-.m3{
+
+.m3 {
     background-image: url("./assets/Minimalista\ 5.png");
     background-repeat: no-repeat;
     background-position: center;
 
 }
-.m4{
+
+.m4 {
     background-image: url("./assets/Minimalista\ 6.png");
     background-repeat: no-repeat;
     background-position: center;
 
 }
-.m5{
+
+.m5 {
     background-image: url("./assets/Minimalista\ 7.png");
     background-repeat: no-repeat;
     background-position: center;
 
 }
-.r1{
+
+.r1 {
     background-image: url("./assets/Minimalista7\,50.jpg");
     background-repeat: no-repeat;
     background-position: center;
 
 }
-.r2{
+
+.r2 {
     background-image: url("./assets/Minimalista8.jpg");
     background-repeat: no-repeat;
     background-position: center;
 
 }
-.m1,.m2,.m3,.m4,.m5,.r1,.r2{
+
+.m1,
+.m2,
+.m3,
+.m4,
+.m5,
+.r1,
+.r2 {
     background-size: 500px 700px;
 }
+
 .banner-container2 {
     display: flex;
     justify-content: center;
     background-color: white;
     width: 100%;
 }
-.owl-container{
-    width: 100%!important;
+
+.owl-container {
+    width: 100% !important;
 }
-.bold{
-    font-weight: 600!important;
+
+.bold {
+    font-weight: 600 !important;
     color: #3381bf;
 }
-.titulo-equipos{
+
+.titulo-equipos {
     font-size: 26px;
-    color: #4e4e4e!important;
+    color: #4e4e4e !important;
 }
-.titulo-white{
+
+.titulo-white {
     font-size: 26px;
-    color: white!important;
+    color: white !important;
 }
-.text-equipos{
+
+.text-equipos {
     font-size: 20px;
-    color: #4e4e4e!important;
+    color: #4e4e4e !important;
 }
-.text-white{
+
+.text-white {
     font-size: 20px;
-    color: white!important;
+    color: white !important;
 }
-.bolder{
+
+.bolder {
     font-weight: bolder;
 }
-.list-group-item,.list-group{
-    background-color:initial!important;
-    border: initial!important;
+
+.list-group-item,
+.list-group {
+    background-color: initial !important;
+    border: initial !important;
 }
-.icons-work{
+
+.icons-work {
     width: 200px;
     height: 200px;
 }
-.input-contacto, .input-option{
+
+.input-contacto,
+.input-option {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -430,20 +461,69 @@ a {
     box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
     letter-spacing: 1px;
     border: 0;
+    min-height: 44px;
 }
-.input-option{
-    font-size: 14px!important;
+
+.input-option {
+    font-size: 14px !important;
 }
-.input-contacto::placeholder{
-    color:white;
+
+.input-contacto::placeholder {
+    color: white;
     font-size: 16px;
 }
-.pr-0{
-    padding-right: 0!important;
+
+.pr-0 {
+    padding-right: 0 !important;
 }
-.pl-0{
-    padding-left: 0!important;
+
+.pl-0 {
+    padding-left: 0 !important;
 }
-label{
+
+label {
     white-space: nowrap;
 }
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.invisible {
+    display: none !important;
+}
+
+footer {
+    margin: 0;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d36500;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+.wp-float{
+    width: 55px;
+  }
