@@ -5,6 +5,10 @@
     font-family: 'Oswald', sans-serif !important;
 }
 
+body {
+    background-color: rgb(206, 252, 255);
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
@@ -18,13 +22,29 @@ a {
     display: flex;
     align-items: center;
     width: 280px;
-    justify-content: space-between;
+    justify-content: start;
+}
+.logo-cont-trans{
+    padding: 0!important;
 }
 
 .logo {
     width: 90px;
     height: 90px;
+    transition: ease-in-out 0.5s;
 }
+.brand{
+    width: 180px;
+    transition: ease-in-out 0.5s;
+}
+.brand-trans{
+    width: 100px;
+}
+.logo-trans {
+    width: 50px!important;
+    height: 50px!important;
+}
+
 
 .menu-btn {
     position: relative;
@@ -77,6 +97,18 @@ a {
     background-color: #fff;
     color: white;
     width: 100%;
+}
+
+.navbar-fixed {
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: white;
+    width: 100%;
+    z-index: 100;
 }
 
 .navbar-links {
@@ -193,11 +225,11 @@ a {
     flex-direction: column;
     align-items: center;
     margin-bottom: 15px;
+    background-color: rgb(206, 252, 255);
 }
 
 .box-nosotros {
     width: 70%;
-    background-color: white;
     text-align: center;
     display: flex;
     justify-content: start;
@@ -287,6 +319,10 @@ a {
     padding-bottom: 20px !important;
 }
 
+#galeria {
+    background-color: rgb(206, 252, 255);
+}
+
 .heading-cont {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -318,16 +354,17 @@ a {
     color: white;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
     margin: 0;
-    background: #525252;
+    background-color: #0d6efd;
     font-weight: 700;
 }
 
 .lead-contacto {
-    background-color: #8e8e8e;
+    background-color: #ffffff;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 12px 45px 12px 45px;
     font-size: 24px;
+    font-weight: 500;
 }
 
 .container-fluid {
@@ -410,7 +447,6 @@ a {
 
 .bold {
     font-weight: 600 !important;
-    color: #3381bf;
 }
 
 .titulo-equipos {
@@ -448,15 +484,18 @@ a {
     height: 200px;
 }
 
+#contacto {
+    background-color: rgb(206, 252, 255);
+}
+
 .input-contacto,
 .input-option {
     font-family: 'Oswald', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     width: 100%;
     padding: 10px;
-    color: #FFF;
-    background: #8e8e8e;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
     margin: 3px 0px 15px 0;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
     letter-spacing: 1px;
@@ -469,8 +508,8 @@ a {
 }
 
 .input-contacto::placeholder {
-    color: white;
-    font-size: 16px;
+    color: rgb(170, 170, 170);
+    font-size: 12px;
 }
 
 .pr-0 {
@@ -524,6 +563,11 @@ footer {
 .my-float {
     margin-top: 16px;
 }
-.wp-float{
+
+.wp-float {
     width: 55px;
-  }
+}
+
+.icon-list {
+    width: 30px;
+}

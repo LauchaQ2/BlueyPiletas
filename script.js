@@ -102,3 +102,72 @@ document.getElementById('form')
       alert(JSON.stringify(err));
     });
 });
+
+$(document).ready(function() {
+
+  $(window).scroll(function () { 
+    var navbar = document.querySelector('#navbar');
+
+
+    console.log($(window).scrollTop());
+
+    if ($(window).scrollTop() > 0) {
+      navbar.classList.add('navbar-fixed');
+    }
+
+    if ($(window).scrollTop() < 1) {
+      navbar.classList.remove('navbar-fixed');
+    }
+  });
+});
+$(document).ready(function() {
+
+  $(window).scroll(function () { 
+    var logo = document.querySelector('#logo');
+
+
+    console.log($(window).scrollTop());
+
+    if ($(window).scrollTop() > 50) {
+      logo.classList.add('logo-trans');
+    }
+
+    if ($(window).scrollTop() < 81) {
+      logo.classList.remove('logo-trans');
+    }
+  });
+});
+$(document).ready(function() {
+
+  $(window).scroll(function () { 
+    var logoCont = document.querySelector('#logo-container');
+
+
+    console.log($(window).scrollTop());
+
+    if ($(window).scrollTop() > 50) {
+      logoCont.classList.add('logo-cont-trans');
+    }
+
+    if ($(window).scrollTop() < 81) {
+      logoCont.classList.remove('logo-cont-trans');
+    }
+  });
+});
+$(document).ready(function() {
+
+  $(window).scroll(function () { 
+    var brand = document.querySelector('#brand-logo');
+
+
+    console.log($(window).scrollTop());
+
+    if ($(window).scrollTop() > 50) {
+      brand.classList.add('brand-trans');
+    }
+
+    if ($(window).scrollTop() < 81) {
+      brand.classList.remove('brand-trans');
+    }
+  });
+});
