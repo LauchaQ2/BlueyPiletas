@@ -362,25 +362,25 @@
             </div>
             <form id="form">
                 <div class="row f-c">
-                    <div class="col-6 c-c"><input type="text" name="nombre" placeholder="* NOMBRE"
+                    <div class="col-6 c-c"><input required onkeyup="lettersOnly(this)" type="text" name="nombre" placeholder="* NOMBRE"
                             class="input-contacto"></div>
-                    <div class="col-6 c-c"><input type="text" name="apellido" placeholder="* APELLIDO"
-                            class="input-contacto"></div>
-                </div>
-                <div class="row f-c">
-                    <div class="col-6 c-c"><input type="email" name="email" placeholder="* EMAIL"
-                            class="input-contacto"></div>
-                    <div class="col-6 c-c"><input type="tel" name="telefono" placeholder="* TELÉFONO"
+                    <div class="col-6 c-c"><input required onkeyup="lettersOnly(this)" type="text" name="apellido" placeholder="* APELLIDO"
                             class="input-contacto"></div>
                 </div>
                 <div class="row f-c">
-                    <div class="col-6 c-c"><input type="text" name="provincia" placeholder="* PROVINCIA"
+                    <div class="col-6 c-c"><input required type="email" name="email" placeholder="* EMAIL"
                             class="input-contacto"></div>
-                    <div class="col-6 c-c"><input type="text" name="partido" placeholder="* PARTIDO"
+                    <div class="col-6 c-c"><input required  onkeyup="numbersOnly(this)" type="tel" name="telefono" placeholder="* TELÉFONO"
                             class="input-contacto"></div>
                 </div>
                 <div class="row f-c">
-                    <div class="col-6 c-c"><input type="text" name="localidad" placeholder="* LOCALIDAD"
+                    <div class="col-6 c-c"><input required onkeyup="lettersOnly(this)" type="text" name="provincia" placeholder="* PROVINCIA"
+                            class="input-contacto"></div>
+                    <div class="col-6 c-c"><input required onkeyup="lettersOnly(this)" type="text" name="partido" placeholder="* PARTIDO"
+                            class="input-contacto"></div>
+                </div>
+                <div class="row f-c">
+                    <div class="col-6 c-c"><input required onkeyup="lettersOnly(this)" type="text" name="localidad" placeholder="* LOCALIDAD"
                             class="input-contacto"></div>
                     <div class="col-6 c-c">
                         <select id="select-knowus" class="input-contacto">
@@ -399,11 +399,11 @@
                     <div class="col-6 c-c">
                         <label style="margin-bottom: 0;font-weight: 700;" class="input-contacto">PILETAS</label>
                         <div class="row f-c mb0">
-                            <div class="col-6 c-c pr-0 mb0"><label class="input-contacto mb0"><input id="minimalista"
+                            <div class="col-6 c-c pr-0 mb0"><label class="input-contacto mb0"><input required id="minimalista"
                                         type="radio" value="LINEA MINIMALISTA" name="linea"> LÍNEA
                                     MINIMALISTA</label>
                             </div>
-                            <div class="col-6 c-c pl-0 mb0"><label class="input-contacto mb0"><input id="rectangular"
+                            <div class="col-6 c-c pl-0 mb0"><label class="input-contacto mb0"><input required id="rectangular"
                                         type="radio" value="LINEA RECTANGULAR" name="linea">
                                     LÍNEA
                                     RECTANGULAR</label>
@@ -411,7 +411,7 @@
                         </div>
                         <div class="row f-c">
                             <div class="col c-c">
-                                <select class="input-contacto">
+                                <select required class="input-contacto">
                                     <option value="CÓMO LLEGASTE A NOSOTROS" class="input-option">MEDIDAS</option>
                                     <option id="minimalista1" value="Facebook" class="input-option" disabled>Selecciona
                                         la medida que te interese</option>
