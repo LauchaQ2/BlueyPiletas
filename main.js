@@ -5,7 +5,7 @@ $('.owl-carousel').owlCarousel({
     dots:true,
     autoplay: true,
     autoplayTimeout: 3000,
-    navSpeed: 4000,
+    navSpeed: 6000,
     smartSpeed: 1000,
     responsive:{
         0:{
